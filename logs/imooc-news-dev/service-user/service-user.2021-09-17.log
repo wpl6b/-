@@ -1,0 +1,49 @@
+2021-09-17 19:33:15.322 [main] INFO  com.imooc.files.Application - Starting Application on DESKTOP-VO4OPVP with PID 21104 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-files\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-17 19:33:15.323 [main] INFO  com.imooc.files.Application - The following profiles are active: dev
+2021-09-17 19:33:19.208 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-17 19:33:19.209 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-17 19:33:19.229 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 MongoDB repository interfaces.
+2021-09-17 19:33:19.243 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-17 19:33:19.244 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-17 19:33:19.253 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2021-09-17 19:33:20.844 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2021-09-17 19:33:20.881 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2021-09-17 19:33:20.882 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-17 19:33:20.882 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-17 19:33:21.232 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-17 19:33:21.233 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5862 ms
+2021-09-17 19:33:22.510 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.186.88:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-17 19:33:22.887 [cluster-ClusterId{value='61447d024b68bd1b28b89a74', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:81}] to 192.168.186.88:27017
+2021-09-17 19:33:22.912 [cluster-ClusterId{value='61447d024b68bd1b28b89a74', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.186.88:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 2]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22719000}
+2021-09-17 19:33:31.248 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-17 19:33:36.672 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-17 19:33:36.739 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-17 19:33:36.751 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-17 19:33:37.029 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2021-09-17 19:33:37.152 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2021-09-17 19:33:37.155 [main] INFO  com.imooc.files.Application - Started Application in 23.434 seconds (JVM running for 29.94)
+2021-09-17 20:01:36.446 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 20:01:36.484 [main] INFO  com.imooc.files.Application - Starting Application on DESKTOP-VO4OPVP with PID 22012 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-files\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-17 20:01:36.509 [main] INFO  com.imooc.files.Application - The following profiles are active: dev
+2021-09-17 20:01:40.549 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-17 20:01:40.550 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-17 20:01:40.578 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 MongoDB repository interfaces.
+2021-09-17 20:01:40.602 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-17 20:01:40.604 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-17 20:01:40.616 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+2021-09-17 20:01:42.012 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2021-09-17 20:01:42.027 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2021-09-17 20:01:42.028 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-17 20:01:42.029 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-17 20:01:42.345 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-17 20:01:42.345 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5710 ms
+2021-09-17 20:01:43.651 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.186.88:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-17 20:01:43.795 [cluster-ClusterId{value='614483a78e8e1d19df40c042', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:83}] to 192.168.186.88:27017
+2021-09-17 20:01:43.831 [cluster-ClusterId{value='614483a78e8e1d19df40c042', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.186.88:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 2]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=34924000}
+2021-09-17 20:01:45.076 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-17 20:01:46.006 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-17 20:01:46.061 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-17 20:01:46.072 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-17 20:01:46.353 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2021-09-17 20:01:46.475 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2021-09-17 20:01:46.489 [main] INFO  com.imooc.files.Application - Started Application in 11.415 seconds (JVM running for 16.256)

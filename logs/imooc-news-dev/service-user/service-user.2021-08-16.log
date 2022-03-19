@@ -1,0 +1,212 @@
+2021-08-16 12:13:11.675 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-08-16 12:13:11.741 [main] INFO  com.imooc.files.Application - Starting Application on DESKTOP-VO4OPVP with PID 6980 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-files\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-08-16 12:13:11.742 [main] INFO  com.imooc.files.Application - The following profiles are active: dev
+2021-08-16 12:13:18.795 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-16 12:13:18.798 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-16 12:13:18.829 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2021-08-16 12:13:20.183 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2021-08-16 12:13:20.198 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2021-08-16 12:13:20.199 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-16 12:13:20.199 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-08-16 12:13:20.398 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-16 12:13:20.399 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7902 ms
+2021-08-16 12:13:21.898 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-16 12:13:22.219 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-16 12:13:22.232 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-16 12:13:22.242 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-16 12:13:22.265 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2021-08-16 12:13:22.287 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2021-08-16 12:13:22.291 [main] INFO  com.imooc.files.Application - Started Application in 12.156 seconds (JVM running for 13.744)
+2021-08-16 12:15:14.634 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-16 12:15:14.634 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-16 12:15:14.662 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 28 ms
+2021-08-16 12:15:15.075 [http-nio-8004-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-08-16 12:15:15.076 [http-nio-8004-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-08-16 12:15:15.836 [http-nio-8004-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.186.88:6379] with root cause
+io.lettuce.core.RedisCommandExecutionException: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?
+	at io.lettuce.core.ExceptionFactory.createExecutionException(ExceptionFactory.java:135)
+	at io.lettuce.core.ExceptionFactory.createExecutionException(ExceptionFactory.java:108)
+	at io.lettuce.core.protocol.AsyncCommand.completeResult(AsyncCommand.java:120)
+	at io.lettuce.core.protocol.AsyncCommand.complete(AsyncCommand.java:111)
+	at io.lettuce.core.protocol.CommandHandler.complete(CommandHandler.java:654)
+	at io.lettuce.core.protocol.CommandHandler.decode(CommandHandler.java:614)
+	at io.lettuce.core.protocol.CommandHandler.channelRead(CommandHandler.java:565)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-08-16 12:19:04.334 [http-nio-8004-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.186.88:6379] with root cause
+io.lettuce.core.RedisCommandExecutionException: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?
+	at io.lettuce.core.ExceptionFactory.createExecutionException(ExceptionFactory.java:135)
+	at io.lettuce.core.ExceptionFactory.createExecutionException(ExceptionFactory.java:108)
+	at io.lettuce.core.protocol.AsyncCommand.completeResult(AsyncCommand.java:120)
+	at io.lettuce.core.protocol.AsyncCommand.complete(AsyncCommand.java:111)
+	at io.lettuce.core.protocol.CommandHandler.complete(CommandHandler.java:654)
+	at io.lettuce.core.protocol.CommandHandler.decode(CommandHandler.java:614)
+	at io.lettuce.core.protocol.CommandHandler.channelRead(CommandHandler.java:565)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-08-16 12:22:34.379 [http-nio-8004-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.186.88:6379] with root cause
+io.lettuce.core.RedisCommandExecutionException: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?
+	at io.lettuce.core.ExceptionFactory.createExecutionException(ExceptionFactory.java:135)
+	at io.lettuce.core.ExceptionFactory.createExecutionException(ExceptionFactory.java:108)
+	at io.lettuce.core.protocol.AsyncCommand.completeResult(AsyncCommand.java:120)
+	at io.lettuce.core.protocol.AsyncCommand.complete(AsyncCommand.java:111)
+	at io.lettuce.core.protocol.CommandHandler.complete(CommandHandler.java:654)
+	at io.lettuce.core.protocol.CommandHandler.decode(CommandHandler.java:614)
+	at io.lettuce.core.protocol.CommandHandler.channelRead(CommandHandler.java:565)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-08-16 12:25:43.121 [http-nio-8004-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.186.88:6379] with root cause
+io.lettuce.core.RedisCommandExecutionException: ERR AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?
+	at io.lettuce.core.ExceptionFactory.createExecutionException(ExceptionFactory.java:135)
+	at io.lettuce.core.ExceptionFactory.createExecutionException(ExceptionFactory.java:108)
+	at io.lettuce.core.protocol.AsyncCommand.completeResult(AsyncCommand.java:120)
+	at io.lettuce.core.protocol.AsyncCommand.complete(AsyncCommand.java:111)
+	at io.lettuce.core.protocol.CommandHandler.complete(CommandHandler.java:654)
+	at io.lettuce.core.protocol.CommandHandler.decode(CommandHandler.java:614)
+	at io.lettuce.core.protocol.CommandHandler.channelRead(CommandHandler.java:565)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-08-16 12:32:58.726 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-08-16 12:32:58.744 [main] INFO  com.imooc.files.Application - Starting Application on DESKTOP-VO4OPVP with PID 40752 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-files\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-08-16 12:32:58.745 [main] INFO  com.imooc.files.Application - The following profiles are active: dev
+2021-08-16 12:33:07.527 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-16 12:33:07.529 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-16 12:33:07.564 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2021-08-16 12:33:08.263 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2021-08-16 12:33:08.273 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2021-08-16 12:33:08.273 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-16 12:33:08.273 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-08-16 12:33:08.555 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-16 12:33:08.556 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 9633 ms
+2021-08-16 12:33:21.478 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-16 12:33:22.682 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-16 12:33:22.749 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-16 12:33:22.776 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-16 12:33:22.858 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2021-08-16 12:33:23.036 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2021-08-16 12:33:23.048 [main] INFO  com.imooc.files.Application - Started Application in 25.745 seconds (JVM running for 27.802)
+2021-08-16 12:34:04.055 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-16 12:34:04.055 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-16 12:34:04.066 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2021-08-16 12:34:04.291 [http-nio-8004-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-08-16 12:34:04.292 [http-nio-8004-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-08-16 12:34:04.771 [http-nio-8004-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.files.service.impl.UploaderServiceImpl.uploadFiles=======
+2021-08-16 12:34:05.122 [http-nio-8004-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：350
+2021-08-16 12:34:05.123 [http-nio-8004-exec-2] INFO  c.i.f.c.FileUploaderController - 文件存储路径： imooc/M00/00/00/wKi6WGEbPDyANW1gAAJf6o-RlsY493.png
+2021-08-16 12:34:05.123 [http-nio-8004-exec-2] INFO  c.i.f.c.FileUploaderController - 最终路径： com.imooc.files.FileResource@1c7c0214imooc/M00/00/00/wKi6WGEbPDyANW1gAAJf6o-RlsY493.png
+2021-08-16 12:35:36.247 [main] INFO  com.imooc.files.Application - Starting Application on DESKTOP-VO4OPVP with PID 22712 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-files\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-08-16 12:35:36.296 [main] INFO  com.imooc.files.Application - The following profiles are active: dev
+2021-08-16 12:35:36.471 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-08-16 12:35:38.473 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-16 12:35:38.475 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-16 12:35:38.509 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2021-08-16 12:35:39.504 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2021-08-16 12:35:39.540 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2021-08-16 12:35:39.541 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-16 12:35:39.541 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-08-16 12:35:39.882 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-16 12:35:39.882 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3456 ms
+2021-08-16 12:35:47.879 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-16 12:35:49.123 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-16 12:35:49.162 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-16 12:35:49.185 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-16 12:35:49.468 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2021-08-16 12:35:49.632 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2021-08-16 12:35:49.648 [main] INFO  com.imooc.files.Application - Started Application in 15.642 seconds (JVM running for 17.713)
+2021-08-16 12:35:50.454 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-16 12:35:50.455 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-16 12:35:50.477 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2021-08-16 12:35:51.150 [http-nio-8004-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-08-16 12:35:51.152 [http-nio-8004-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-08-16 12:35:51.884 [http-nio-8004-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.files.service.impl.UploaderServiceImpl.uploadFiles=======
+2021-08-16 12:35:52.101 [http-nio-8004-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：217
+2021-08-16 12:35:52.102 [http-nio-8004-exec-2] INFO  c.i.f.c.FileUploaderController - 文件存储路径： imooc/M00/00/00/wKi6WGEbPKeAZxE2AAJf6o-RlsY981.png
+2021-08-16 12:35:52.102 [http-nio-8004-exec-2] INFO  c.i.f.c.FileUploaderController - 最终路径： http://192.168.186.88:8888/imooc/M00/00/00/wKi6WGEbPKeAZxE2AAJf6o-RlsY981.png
+2021-08-16 12:41:07.903 [http-nio-8004-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.files.service.impl.UploaderServiceImpl.uploadFiles=======
+2021-08-16 12:41:08.061 [http-nio-8004-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：158
+2021-08-16 12:41:08.062 [http-nio-8004-exec-6] INFO  c.i.f.c.FileUploaderController - 文件存储路径： imooc/M00/00/00/wKi6WGEbPeKAMpgIAAJf6o-RlsY911.png
+2021-08-16 12:41:08.062 [http-nio-8004-exec-6] INFO  c.i.f.c.FileUploaderController - 最终路径： http://192.168.186.88:8888/imooc/M00/00/00/wKi6WGEbPeKAMpgIAAJf6o-RlsY911.png
+2021-08-16 14:37:47.122 [main] INFO  com.imooc.files.Application - Starting Application on DESKTOP-VO4OPVP with PID 15328 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-files\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-08-16 14:37:47.134 [main] INFO  com.imooc.files.Application - The following profiles are active: dev
+2021-08-16 14:37:47.469 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-08-16 14:37:51.995 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-16 14:37:51.999 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-16 14:37:52.083 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 Redis repository interfaces.
+2021-08-16 14:37:54.453 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2021-08-16 14:37:54.491 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2021-08-16 14:37:54.493 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-16 14:37:54.493 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-08-16 14:37:55.406 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-16 14:37:55.407 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7905 ms
+2021-08-16 14:37:57.844 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-16 14:37:58.681 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-16 14:37:58.742 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-16 14:37:58.791 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-16 14:37:58.884 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2021-08-16 14:37:59.060 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2021-08-16 14:37:59.064 [main] INFO  com.imooc.files.Application - Started Application in 19.137 seconds (JVM running for 21.273)
+2021-08-16 14:44:13.187 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-16 14:44:13.188 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-16 14:44:13.213 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 25 ms
+2021-08-16 14:44:13.482 [http-nio-8004-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-08-16 14:44:13.483 [http-nio-8004-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-08-16 14:44:14.005 [http-nio-8004-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.files.service.impl.UploaderServiceImpl.uploadFiles=======
+2021-08-16 14:44:14.527 [http-nio-8004-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：521
+2021-08-16 14:44:14.527 [http-nio-8004-exec-2] INFO  c.i.f.c.FileUploaderController - 文件存储路径： imooc/M00/00/00/wKi6WGEbWr2AJb_xAAJf6o-RlsY361.png
+2021-08-16 14:44:14.528 [http-nio-8004-exec-2] INFO  c.i.f.c.FileUploaderController - 最终路径： http://192.168.186.88:8888/imooc/M00/00/00/wKi6WGEbWr2AJb_xAAJf6o-RlsY361.png

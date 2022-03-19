@@ -1,0 +1,122 @@
+2021-09-18 11:42:27.073 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-18 11:42:27.215 [http-nio-8001-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-18 11:42:28.372 [http-nio-8001-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-18 11:42:28.414 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-18 11:42:38.068 [http-nio-8001-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9667 ms
+2021-09-18 11:42:39.181 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10767 ms
+2021-09-18 11:42:55.496 [http-nio-8001-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-18 11:42:55.496 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-18 11:42:55.759 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:42:55.759 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:43:15.458 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-18 11:43:17.203 [http-nio-8003-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-09-18 11:43:17.242 [http-nio-8003-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-09-18 11:44:15.484 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-18 11:44:31.942 [http-nio-8001-exec-2] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：96273
+2021-09-18 11:44:31.942 [http-nio-8001-exec-4] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：96273
+2021-09-18 11:44:32.596 [http-nio-8001-exec-1] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：96836
+2021-09-18 11:44:32.596 [http-nio-8001-exec-3] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：96836
+2021-09-18 11:44:51.675 [http-nio-8001-exec-3] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-09-18 11:44:51.677 [http-nio-8001-exec-3] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-09-18 11:46:10.439 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-18 11:46:10.442 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:46:10.561 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：118
+2021-09-18 11:46:10.579 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：57
+2021-09-18 11:46:10.997 [http-nio-8003-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.UserServiceImpl.getUser=======
+2021-09-18 11:46:10.997 [http-nio-8003-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.UserServiceImpl.getUser=======
+2021-09-18 11:46:12.774 [http-nio-8003-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-18 11:46:21.280 [http-nio-8003-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-18 11:46:21.405 [http-nio-8003-exec-8] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：10381
+2021-09-18 11:46:21.724 [http-nio-8003-exec-9] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：10700
+2021-09-18 11:46:21.727 [http-nio-8003-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.UserServiceImpl.getUser=======
+2021-09-18 11:46:21.731 [http-nio-8003-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：3
+2021-09-18 11:47:56.278 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:47:56.305 [http-nio-8001-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-18 11:47:56.352 [http-nio-8001-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：47
+2021-09-18 11:47:56.360 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：82
+2021-09-18 11:48:03.213 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:48:03.214 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-18 11:48:03.242 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：27
+2021-09-18 11:48:03.243 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：30
+2021-09-18 11:48:08.891 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryDetail=======
+2021-09-18 11:48:08.898 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.CommentPortalServiceImpl.getAllComments=======
+2021-09-18 11:48:08.974 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：82
+2021-09-18 11:48:09.218 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：320
+2021-09-18 11:48:16.732 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:48:16.756 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：24
+2021-09-18 11:48:16.767 [http-nio-8001-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-18 11:48:16.851 [http-nio-8001-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：83
+2021-09-18 11:49:07.826 [http-nio-8001-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryDetail=======
+2021-09-18 11:49:07.831 [http-nio-8001-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：5
+2021-09-18 11:49:07.857 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.CommentPortalServiceImpl.getAllComments=======
+2021-09-18 11:49:07.872 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：14
+2021-09-18 11:49:19.559 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:49:19.562 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-18 11:49:19.574 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：12
+2021-09-18 11:49:19.579 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：20
+2021-09-18 11:49:31.413 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:49:31.428 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：15
+2021-09-18 11:49:31.641 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-18 11:49:31.650 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：9
+2021-09-18 11:52:07.720 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:07.768 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：48
+2021-09-18 11:52:07.775 [http-nio-8003-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.UserServiceImpl.getUser=======
+2021-09-18 11:52:07.780 [http-nio-8003-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：5
+2021-09-18 11:52:08.765 [http-nio-8001-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:08.794 [http-nio-8001-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：29
+2021-09-18 11:52:09.515 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:09.528 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：12
+2021-09-18 11:52:10.905 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:10.941 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：36
+2021-09-18 11:52:11.822 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:11.870 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：48
+2021-09-18 11:52:12.560 [http-nio-8001-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:12.568 [http-nio-8001-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：8
+2021-09-18 11:52:13.484 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:13.559 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：75
+2021-09-18 11:52:14.065 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:14.075 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：10
+2021-09-18 11:52:14.503 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:14.512 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：8
+2021-09-18 11:52:15.605 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:15.612 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：6
+2021-09-18 11:52:16.428 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:16.433 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：5
+2021-09-18 11:52:26.090 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:26.103 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：13
+2021-09-18 11:52:27.212 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-18 11:52:27.213 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:27.223 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：11
+2021-09-18 11:52:27.227 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：14
+2021-09-18 11:52:35.332 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-18 11:52:35.335 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:35.340 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：8
+2021-09-18 11:52:35.348 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：13
+2021-09-18 11:52:40.781 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:40.798 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：17
+2021-09-18 11:52:40.806 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:40.839 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：33
+2021-09-18 11:52:53.112 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:53.124 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：12
+2021-09-18 11:52:53.127 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-18 11:52:53.136 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：9
+2021-09-18 11:52:59.441 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:52:59.450 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-18 11:52:59.454 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：13
+2021-09-18 11:52:59.460 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：9
+2021-09-18 11:53:47.125 [http-nio-8003-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.UserServiceImpl.queryMobileIsExist=======
+2021-09-18 11:53:47.249 [http-nio-8003-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：124
+2021-09-18 11:53:47.526 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:53:47.559 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：33
+2021-09-18 11:53:47.586 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-18 11:53:47.603 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：17
+2021-09-18 11:53:50.568 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.queryMyList=======
+2021-09-18 11:53:50.590 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：22
+2021-09-18 11:54:03.739 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:54:03.748 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：8
+2021-09-18 11:54:03.758 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-18 11:54:03.770 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：11
+2021-09-18 11:54:07.685 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryDetail=======
+2021-09-18 11:54:07.690 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：5
+2021-09-18 11:54:07.698 [http-nio-8001-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.CommentPortalServiceImpl.getAllComments=======
+2021-09-18 11:54:07.726 [http-nio-8001-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：28

@@ -1,0 +1,7 @@
+2021-09-24 08:28:42.099 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-24 08:28:42.377 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-24 08:28:48.691 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6277 ms
+2021-09-24 08:29:06.800 [http-nio-8004-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-09-24 08:29:06.836 [http-nio-8004-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-09-24 08:29:21.494 [http-nio-8004-exec-2] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:7, serverValue:101}] to 192.168.186.88:27017
+2021-09-24 09:21:11.753 [cluster-ClusterId{value='614483a78e8e1d19df40c042', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:8, serverValue:103}] to 192.168.186.88:27017

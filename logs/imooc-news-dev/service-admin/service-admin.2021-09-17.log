@@ -1,0 +1,73 @@
+2021-09-17 12:03:28.903 [main] INFO  com.imooc.admin.Application - Starting Application on DESKTOP-VO4OPVP with PID 4168 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-admin\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-17 12:03:28.905 [main] INFO  com.imooc.admin.Application - The following profiles are active: dev
+2021-09-17 12:03:28.962 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 12:03:33.185 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-17 12:03:33.186 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-17 12:03:33.307 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111ms. Found 1 MongoDB repository interfaces.
+2021-09-17 12:03:33.336 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-17 12:03:33.343 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-17 12:03:33.391 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.admin.repository.FriendLinkRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-09-17 12:03:33.391 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2021-09-17 12:03:33.605 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.admin]' package. Please check your configuration.
+2021-09-17 12:03:34.988 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8015 (http)
+2021-09-17 12:03:35.060 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8015"]
+2021-09-17 12:03:35.061 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-17 12:03:35.061 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-17 12:03:35.378 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-17 12:03:35.378 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6336 ms
+2021-09-17 12:03:38.050 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.186.88:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-17 12:03:39.535 [cluster-ClusterId{value='6144139aa826394bb2075e93', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:79}] to 192.168.186.88:27017
+2021-09-17 12:03:39.543 [cluster-ClusterId{value='6144139aa826394bb2075e93', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.186.88:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 2]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5449000}
+2021-09-17 12:03:40.960 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-17 12:03:41.215 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-17 12:03:41.216 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-17 12:03:41.217 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-17 12:03:41.218 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-17 12:03:42.074 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-17 12:03:42.198 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-17 12:03:42.214 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-17 12:03:43.626 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8015"]
+2021-09-17 12:03:43.842 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8015 (http) with context path ''
+2021-09-17 12:03:43.845 [main] INFO  com.imooc.admin.Application - Started Application in 16.912 seconds (JVM running for 22.717)
+2021-09-17 12:04:00.556 [http-nio-8015-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-17 12:04:00.556 [http-nio-8015-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-17 12:04:00.576 [http-nio-8015-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2021-09-17 12:04:02.322 [http-nio-8015-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-09-17 12:04:02.324 [http-nio-8015-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-09-17 12:04:04.012 [http-nio-8015-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.CategoryServiceImpl.queryCategoryList=======
+2021-09-17 12:04:04.139 [http-nio-8015-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-17 12:04:05.242 [http-nio-8015-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-17 12:04:06.699 [http-nio-8015-exec-1] WARN  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2686
+2021-09-17 12:28:45.045 [http-nio-8015-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-17 12:28:46.416 [http-nio-8015-exec-9] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:80}] to 192.168.186.88:27017
+2021-09-17 12:28:47.334 [http-nio-8015-exec-9] WARN  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2286
+2021-09-17 19:56:50.601 [main] INFO  com.imooc.admin.Application - Starting Application on DESKTOP-VO4OPVP with PID 13484 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-admin\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-17 19:56:50.631 [main] INFO  com.imooc.admin.Application - The following profiles are active: dev
+2021-09-17 19:56:52.692 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-17 19:56:52.692 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-17 19:56:52.854 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 157ms. Found 1 MongoDB repository interfaces.
+2021-09-17 19:56:52.873 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-17 19:56:52.875 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-17 19:56:52.907 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.admin.repository.FriendLinkRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-09-17 19:56:52.907 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2021-09-17 19:56:53.063 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.admin]' package. Please check your configuration.
+2021-09-17 19:56:53.909 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8015 (http)
+2021-09-17 19:56:53.920 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8015"]
+2021-09-17 19:56:53.920 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-17 19:56:53.920 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-17 19:56:54.042 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-17 19:56:54.042 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3351 ms
+2021-09-17 19:56:56.752 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.186.88:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-17 19:56:56.890 [cluster-ClusterId{value='614482888aa5d016b88ede81', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:82}] to 192.168.186.88:27017
+2021-09-17 19:56:56.897 [cluster-ClusterId{value='614482888aa5d016b88ede81', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.186.88:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 2]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5052900}
+2021-09-17 19:56:58.067 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-17 19:56:58.180 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-17 19:56:58.180 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-17 19:56:58.181 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-17 19:56:58.182 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-17 19:56:58.488 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-17 19:56:58.504 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-17 19:56:58.518 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-17 19:56:58.781 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8015"]
+2021-09-17 19:56:58.806 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8015 (http) with context path ''
+2021-09-17 19:56:58.809 [main] INFO  com.imooc.admin.Application - Started Application in 10.887 seconds (JVM running for 14.524)

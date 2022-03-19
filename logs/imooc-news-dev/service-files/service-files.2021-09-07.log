@@ -1,0 +1,788 @@
+2021-09-07 12:13:10.312 [main] INFO  com.imooc.user.Application - Starting Application on DESKTOP-VO4OPVP with PID 21192 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-user\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 12:13:10.352 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 12:13:10.363 [main] INFO  com.imooc.user.Application - The following profiles are active: dev
+2021-09-07 12:13:13.379 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 12:13:13.379 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 12:13:13.401 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 MongoDB repository interfaces.
+2021-09-07 12:13:13.434 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 12:13:13.435 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 12:13:13.447 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+2021-09-07 12:13:13.575 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-07 12:13:14.880 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8003 (http)
+2021-09-07 12:13:14.907 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-07 12:13:14.908 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 12:13:14.909 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 12:13:15.208 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 12:13:15.208 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4778 ms
+2021-09-07 12:13:17.857 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 12:13:17.988 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 12:13:17.988 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 12:13:17.989 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 12:13:17.989 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 12:13:18.590 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 12:13:18.653 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 12:13:18.665 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 12:13:18.942 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-09-07 12:13:19.003 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-07 12:13:19.006 [main] INFO  com.imooc.user.Application - Started Application in 13.301 seconds (JVM running for 21.058)
+2021-09-07 12:13:35.457 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 12:13:35.457 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 12:13:35.468 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2021-09-07 12:13:37.506 [http-nio-8003-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-09-07 12:13:37.507 [http-nio-8003-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-09-07 12:13:56.722 [http-nio-8003-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.UserServiceImpl.queryMobileIsExist=======
+2021-09-07 12:13:56.908 [http-nio-8003-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-07 12:14:03.902 [http-nio-8003-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-07 12:14:05.721 [http-nio-8003-exec-4] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：8998
+2021-09-07 12:52:36.839 [main] INFO  com.imooc.article.Application - Starting Application on DESKTOP-VO4OPVP with PID 420 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-article\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 12:52:36.841 [main] INFO  com.imooc.article.Application - The following profiles are active: dev
+2021-09-07 12:52:37.374 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 12:52:41.018 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 12:52:41.019 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 12:52:41.041 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 MongoDB repository interfaces.
+2021-09-07 12:52:41.062 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 12:52:41.063 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 12:52:41.083 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+2021-09-07 12:52:41.333 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.article]' package. Please check your configuration.
+2021-09-07 12:52:42.419 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-07 12:52:42.429 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-07 12:52:42.430 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 12:52:42.430 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 12:52:42.530 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 12:52:42.531 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5392 ms
+2021-09-07 12:52:44.482 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 12:52:44.657 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 12:52:44.658 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 12:52:44.659 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 12:52:44.659 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 12:52:45.130 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-09-07 12:52:45.182 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 12:52:45.246 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 12:52:45.257 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 12:52:45.281 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-07 12:52:45.316 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-07 12:52:45.319 [main] INFO  com.imooc.article.Application - Started Application in 10.131 seconds (JVM running for 11.906)
+2021-09-07 12:52:48.013 [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-07 12:52:50.591 [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-07 12:52:50.599 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:52:51.757 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1158
+2021-09-07 12:52:54.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:52:54.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：3
+2021-09-07 12:52:57.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:52:57.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:53:00.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:00.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:53:03.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:03.006 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：3
+2021-09-07 12:53:06.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:06.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:53:09.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:09.006 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:53:12.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:12.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:53:15.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:15.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:53:18.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:18.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:53:21.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:21.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:53:24.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:24.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：3
+2021-09-07 12:53:27.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:27.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：3
+2021-09-07 12:53:30.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:30.006 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:53:31.105 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 12:53:31.105 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 12:53:31.610 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 505 ms
+2021-09-07 12:53:32.169 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:53:33.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:33.006 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:53:34.010 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1840
+2021-09-07 12:53:36.001 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:36.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：3
+2021-09-07 12:53:39.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:39.007 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：4
+2021-09-07 12:53:42.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:42.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:53:45.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:45.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:53:48.001 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:48.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:53:51.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:51.006 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:53:54.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:54.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:53:57.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:53:57.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:00.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:00.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:00.173 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:54:00.201 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：28
+2021-09-07 12:54:02.621 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:54:02.643 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：21
+2021-09-07 12:54:03.001 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:03.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:03.225 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:54:03.249 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：23
+2021-09-07 12:54:04.829 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:54:04.855 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：26
+2021-09-07 12:54:06.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:06.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:07.960 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:54:07.961 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:54:08.056 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：96
+2021-09-07 12:54:08.098 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：137
+2021-09-07 12:54:09.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:09.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:12.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:12.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:15.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:15.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:18.001 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:18.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:21.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:21.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:24.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:24.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:27.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:27.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:30.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:30.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:33.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:33.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:36.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:36.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:39.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:39.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:42.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:42.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:45.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:45.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:48.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:48.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:51.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:51.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:54.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:54.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:54:57.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:54:57.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:55:00.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:00.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:55:03.001 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:03.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:55:06.001 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:06.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:55:09.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:09.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:55:12.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:12.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:55:15.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:15.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:55:18.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:18.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:55:21.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:21.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:55:24.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:24.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:55:24.710 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:55:24.728 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：17
+2021-09-07 12:55:27.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:27.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:55:30.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:30.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:55:33.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:33.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:55:35.458 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:55:35.478 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：20
+2021-09-07 12:55:36.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:36.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:55:39.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:39.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:55:42.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:42.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:55:45.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:45.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:55:48.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:48.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:55:51.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:51.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:55:54.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:54.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:55:57.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:55:57.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:56:00.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:56:00.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:56:02.054 [http-nio-8003-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.UserServiceImpl.queryMobileIsExist=======
+2021-09-07 12:56:03.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:56:03.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:56:03.686 [http-nio-8003-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1257
+2021-09-07 12:56:04.436 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:56:04.457 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：21
+2021-09-07 12:56:06.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:56:06.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:56:08.857 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:56:08.869 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：12
+2021-09-07 12:56:08.875 [http-nio-8001-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:56:08.882 [http-nio-8001-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：6
+2021-09-07 12:56:08.892 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:56:08.898 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：6
+2021-09-07 12:56:09.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:56:09.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:56:12.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:56:12.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1
+2021-09-07 12:56:15.002 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:56:15.004 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:56:15.083 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:56:15.099 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：16
+2021-09-07 12:56:18.009 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:56:18.011 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:56:21.003 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.updateAppointToPublish=======
+2021-09-07 12:56:21.005 [scheduling-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 12:57:10.847 [main] INFO  com.imooc.article.Application - Starting Application on DESKTOP-VO4OPVP with PID 18108 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-article\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 12:57:10.849 [main] INFO  com.imooc.article.Application - The following profiles are active: dev
+2021-09-07 12:57:11.042 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 12:57:12.399 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 12:57:12.399 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 12:57:12.426 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 MongoDB repository interfaces.
+2021-09-07 12:57:12.440 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 12:57:12.441 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 12:57:12.453 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2021-09-07 12:57:12.574 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.article]' package. Please check your configuration.
+2021-09-07 12:57:13.320 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-07 12:57:13.330 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-07 12:57:13.331 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 12:57:13.331 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 12:57:13.430 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 12:57:13.430 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2379 ms
+2021-09-07 12:57:15.221 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 12:57:15.368 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 12:57:15.368 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 12:57:15.369 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 12:57:15.369 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 12:57:15.732 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 12:57:15.745 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 12:57:15.756 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 12:57:15.777 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-07 12:57:15.800 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-07 12:57:15.803 [main] INFO  com.imooc.article.Application - Started Application in 5.831 seconds (JVM running for 7.362)
+2021-09-07 12:57:27.114 [http-nio-8001-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 12:57:27.114 [http-nio-8001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 12:57:27.124 [http-nio-8001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2021-09-07 12:57:27.203 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:57:27.378 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-07 12:57:28.275 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-07 12:57:28.374 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1171
+2021-09-07 12:57:57.831 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:57:57.886 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：55
+2021-09-07 12:59:41.486 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 12:59:41.529 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：43
+2021-09-07 13:05:59.252 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:05:59.304 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：51
+2021-09-07 13:06:32.463 [http-nio-8003-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.UserServiceImpl.queryMobileIsExist=======
+2021-09-07 13:06:32.468 [http-nio-8003-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：4
+2021-09-07 13:06:32.780 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:06:32.924 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：143
+2021-09-07 13:06:45.148 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:06:45.185 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：36
+2021-09-07 13:07:23.281 [http-nio-8001-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:07:23.322 [http-nio-8001-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：39
+2021-09-07 13:07:26.979 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:07:26.998 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:07:27.000 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：21
+2021-09-07 13:07:27.011 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：13
+2021-09-07 13:08:32.560 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:08:32.587 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：27
+2021-09-07 13:11:12.240 [main] INFO  com.imooc.article.Application - Starting Application on DESKTOP-VO4OPVP with PID 20136 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-article\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 13:11:12.242 [main] INFO  com.imooc.article.Application - The following profiles are active: dev
+2021-09-07 13:11:12.486 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 13:11:13.775 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 13:11:13.776 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 13:11:13.810 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 MongoDB repository interfaces.
+2021-09-07 13:11:13.826 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 13:11:13.828 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 13:11:13.840 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+2021-09-07 13:11:13.976 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.article]' package. Please check your configuration.
+2021-09-07 13:11:14.774 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-07 13:11:14.783 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-07 13:11:14.785 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 13:11:14.785 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 13:11:14.913 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 13:11:14.913 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2392 ms
+2021-09-07 13:11:16.640 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 13:11:16.780 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 13:11:16.781 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 13:11:16.782 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 13:11:16.782 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 13:11:17.158 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 13:11:17.175 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 13:11:17.188 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 13:11:17.209 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-07 13:11:17.232 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-07 13:11:17.236 [main] INFO  com.imooc.article.Application - Started Application in 6.016 seconds (JVM running for 8.123)
+2021-09-07 13:13:28.044 [http-nio-8001-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 13:13:28.044 [http-nio-8001-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 13:13:28.056 [http-nio-8001-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2021-09-07 13:13:28.140 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:13:28.333 [http-nio-8001-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-07 13:13:29.026 [http-nio-8001-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-07 13:13:29.339 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1199
+2021-09-07 13:15:44.636 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:15:44.679 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:15:44.714 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：77
+2021-09-07 13:15:44.742 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：62
+2021-09-07 13:16:54.761 [main] INFO  com.imooc.article.Application - Starting Application on DESKTOP-VO4OPVP with PID 22176 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-article\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 13:16:54.762 [main] INFO  com.imooc.article.Application - The following profiles are active: dev
+2021-09-07 13:16:54.950 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 13:16:57.279 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 13:16:57.280 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 13:16:57.331 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 0 MongoDB repository interfaces.
+2021-09-07 13:16:57.347 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 13:16:57.349 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 13:16:57.363 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2021-09-07 13:16:57.517 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.article]' package. Please check your configuration.
+2021-09-07 13:16:58.322 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-07 13:16:58.333 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-07 13:16:58.334 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 13:16:58.334 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 13:16:58.445 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 13:16:58.445 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3473 ms
+2021-09-07 13:17:00.250 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 13:17:00.386 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 13:17:00.387 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 13:17:00.388 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 13:17:00.388 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 13:17:00.840 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 13:17:00.860 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 13:17:00.873 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 13:17:00.897 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-07 13:17:00.926 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-07 13:17:00.929 [main] INFO  com.imooc.article.Application - Started Application in 7.2 seconds (JVM running for 8.961)
+2021-09-07 13:17:06.171 [http-nio-8001-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 13:17:06.171 [http-nio-8001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 13:17:06.180 [http-nio-8001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-09-07 13:17:06.242 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:17:06.416 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-07 13:17:07.074 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-07 13:17:07.402 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1160
+2021-09-07 13:18:37.851 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:18:37.921 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：69
+2021-09-07 13:21:20.144 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:21:20.183 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：39
+2021-09-07 13:22:32.299 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:22:32.326 [http-nio-8001-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:22:32.332 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：32
+2021-09-07 13:22:32.348 [http-nio-8001-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：22
+2021-09-07 13:22:32.365 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 13:22:32.387 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：22
+2021-09-07 15:22:05.885 [main] INFO  com.imooc.user.Application - Starting Application on DESKTOP-VO4OPVP with PID 19888 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-user\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 15:22:05.915 [main] INFO  com.imooc.user.Application - The following profiles are active: dev
+2021-09-07 15:22:06.601 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 15:22:14.653 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 15:22:14.654 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 15:22:14.910 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 MongoDB repository interfaces.
+2021-09-07 15:22:15.263 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 15:22:15.452 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 15:22:15.806 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2021-09-07 15:22:16.652 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-07 15:22:25.026 [main] INFO  com.imooc.article.Application - Starting Application on DESKTOP-VO4OPVP with PID 21836 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-article\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 15:22:25.028 [main] INFO  com.imooc.article.Application - The following profiles are active: dev
+2021-09-07 15:22:25.480 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8003 (http)
+2021-09-07 15:22:25.632 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-07 15:22:25.634 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 15:22:25.635 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 15:22:26.679 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 15:22:26.679 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 20128 ms
+2021-09-07 15:22:27.809 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 15:22:27.810 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 15:22:27.839 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 MongoDB repository interfaces.
+2021-09-07 15:22:27.866 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 15:22:27.868 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 15:22:27.889 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2021-09-07 15:22:28.445 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.article]' package. Please check your configuration.
+2021-09-07 15:22:29.131 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-07 15:22:29.140 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-07 15:22:29.141 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 15:22:29.141 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 15:22:29.304 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 15:22:29.304 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4170 ms
+2021-09-07 15:22:39.320 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 15:22:39.321 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 15:22:39.573 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 15:22:39.574 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 15:22:39.575 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 15:22:39.575 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 15:22:39.575 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 15:22:39.576 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 15:22:39.577 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 15:22:39.577 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 15:22:40.286 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 15:22:40.293 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 15:22:40.342 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 15:22:40.342 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 15:22:40.357 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 15:22:40.359 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 15:22:40.386 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-07 15:22:40.427 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-07 15:22:40.430 [main] INFO  com.imooc.article.Application - Started Application in 16.916 seconds (JVM running for 18.835)
+2021-09-07 15:22:40.653 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-09-07 15:22:40.674 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-07 15:22:40.677 [main] INFO  com.imooc.user.Application - Started Application in 37.63 seconds (JVM running for 45.449)
+2021-09-07 15:24:09.417 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 15:24:09.417 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 15:24:09.420 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 15:24:09.421 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 15:24:09.430 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2021-09-07 15:24:09.433 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2021-09-07 15:24:11.402 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 15:24:13.027 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-07 15:24:14.342 [http-nio-8003-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-09-07 15:24:14.343 [http-nio-8003-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-09-07 15:24:30.505 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-07 15:25:42.785 [http-nio-8001-exec-1] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：91382
+2021-09-07 15:25:43.315 [http-nio-8003-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.UserServiceImpl.getUser=======
+2021-09-07 15:25:43.390 [http-nio-8003-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-07 15:25:44.767 [http-nio-8003-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-07 15:25:45.177 [http-nio-8003-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1862
+2021-09-07 15:42:40.443 [main] INFO  com.imooc.article.Application - Starting Application on DESKTOP-VO4OPVP with PID 14404 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-article\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 15:42:40.444 [main] INFO  com.imooc.article.Application - The following profiles are active: dev
+2021-09-07 15:42:40.762 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 15:42:43.399 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 15:42:43.400 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 15:42:43.421 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 MongoDB repository interfaces.
+2021-09-07 15:42:43.434 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 15:42:43.450 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 15:42:43.461 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+2021-09-07 15:42:43.639 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.article]' package. Please check your configuration.
+2021-09-07 15:42:44.497 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-07 15:42:44.507 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-07 15:42:44.508 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 15:42:44.508 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 15:42:44.617 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 15:42:44.617 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3945 ms
+2021-09-07 15:42:46.475 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 15:42:46.625 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 15:42:46.626 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 15:42:46.627 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 15:42:46.627 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 15:42:47.089 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 15:42:47.128 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 15:42:47.139 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 15:42:47.172 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-07 15:42:47.208 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-07 15:42:47.212 [main] INFO  com.imooc.article.Application - Started Application in 7.824 seconds (JVM running for 9.263)
+2021-09-07 15:43:33.456 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 15:43:33.456 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 15:43:33.465 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-09-07 15:43:34.067 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 15:43:35.562 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-07 15:43:40.545 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-07 15:43:41.594 [http-nio-8001-exec-2] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：7526
+2021-09-07 15:44:28.967 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 15:44:29.026 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 15:44:29.106 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：139
+2021-09-07 15:44:29.242 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：216
+2021-09-07 15:44:29.247 [http-nio-8003-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.UserServiceImpl.getUser=======
+2021-09-07 15:44:29.378 [http-nio-8003-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：128
+2021-09-07 15:57:36.042 [main] INFO  com.imooc.article.Application - Starting Application on DESKTOP-VO4OPVP with PID 21948 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-article\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 15:57:36.043 [main] INFO  com.imooc.article.Application - The following profiles are active: dev
+2021-09-07 15:57:36.353 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 15:57:38.560 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 15:57:38.560 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 15:57:38.582 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 MongoDB repository interfaces.
+2021-09-07 15:57:38.594 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 15:57:38.595 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 15:57:38.609 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2021-09-07 15:57:38.729 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.article]' package. Please check your configuration.
+2021-09-07 15:57:39.587 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-07 15:57:39.597 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-07 15:57:39.598 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 15:57:39.598 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 15:57:39.707 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 15:57:39.707 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3447 ms
+2021-09-07 15:57:41.606 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 15:57:41.755 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 15:57:41.756 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 15:57:41.756 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 15:57:41.757 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 15:57:42.128 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 15:57:42.143 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 15:57:42.154 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 15:57:42.174 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-07 15:57:42.205 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-07 15:57:42.208 [main] INFO  com.imooc.article.Application - Started Application in 7.218 seconds (JVM running for 9.435)
+2021-09-07 15:57:50.426 [http-nio-8001-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 15:57:50.426 [http-nio-8001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 15:57:50.438 [http-nio-8001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2021-09-07 15:57:50.494 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 15:57:50.623 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-07 15:57:52.302 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-07 15:57:53.002 [http-nio-8001-exec-2] WARN  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2508
+2021-09-07 15:58:07.250 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 15:58:07.308 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：58
+2021-09-07 15:58:11.150 [http-nio-8001-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 15:58:11.167 [http-nio-8001-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：17
+2021-09-07 16:04:34.420 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 16:04:34.504 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：84
+2021-09-07 16:04:58.630 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 16:04:58.645 [http-nio-8001-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 16:04:58.656 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：26
+2021-09-07 16:04:59.127 [http-nio-8001-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：482
+2021-09-07 16:05:19.416 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 16:05:19.471 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：54
+2021-09-07 16:07:35.405 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 16:07:35.426 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 16:07:35.433 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：28
+2021-09-07 16:07:35.449 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：22
+2021-09-07 16:07:48.758 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 16:07:48.775 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：16
+2021-09-07 20:13:10.099 [main] INFO  com.imooc.article.Application - Starting Application on DESKTOP-VO4OPVP with PID 14472 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-article\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 20:13:10.101 [main] INFO  com.imooc.article.Application - The following profiles are active: dev
+2021-09-07 20:13:10.315 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 20:13:20.334 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 20:13:20.335 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 20:13:20.371 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 MongoDB repository interfaces.
+2021-09-07 20:13:20.412 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 20:13:20.413 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 20:13:20.426 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+2021-09-07 20:13:20.847 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.article]' package. Please check your configuration.
+2021-09-07 20:13:22.421 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-07 20:13:22.431 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-07 20:13:22.432 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 20:13:22.432 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 20:13:22.627 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 20:13:22.627 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 12227 ms
+2021-09-07 20:13:25.330 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 20:13:25.551 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 20:13:25.552 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 20:13:25.552 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 20:13:25.552 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 20:13:26.113 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 20:13:26.160 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 20:13:26.193 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 20:13:26.215 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-07 20:13:26.253 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-07 20:13:26.256 [main] INFO  com.imooc.article.Application - Started Application in 18.731 seconds (JVM running for 32.653)
+2021-09-07 20:15:43.054 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 20:15:43.054 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 20:15:43.064 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2021-09-07 20:15:45.367 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-07 20:15:45.371 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 20:15:46.225 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-07 20:16:04.776 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-07 20:16:06.412 [http-nio-8001-exec-1] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：21044
+2021-09-07 20:16:06.413 [http-nio-8001-exec-2] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：21041
+2021-09-07 21:48:13.827 [main] INFO  com.imooc.article.Application - Starting Application on DESKTOP-VO4OPVP with PID 8140 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-article\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 21:48:13.829 [main] INFO  com.imooc.article.Application - The following profiles are active: dev
+2021-09-07 21:48:14.245 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 21:48:18.129 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 21:48:18.130 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 21:48:18.152 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 MongoDB repository interfaces.
+2021-09-07 21:48:18.175 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 21:48:18.176 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 21:48:18.214 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+2021-09-07 21:48:18.421 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.article]' package. Please check your configuration.
+2021-09-07 21:48:19.432 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-07 21:48:19.441 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-07 21:48:19.442 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 21:48:19.442 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 21:48:19.556 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 21:48:19.556 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5555 ms
+2021-09-07 21:48:21.661 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 21:48:21.852 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 21:48:21.853 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 21:48:21.854 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 21:48:21.854 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 21:48:22.326 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 21:48:22.357 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 21:48:22.368 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 21:48:22.404 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-07 21:48:22.435 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-07 21:48:22.438 [main] INFO  com.imooc.article.Application - Started Application in 10.224 seconds (JVM running for 12.75)
+2021-09-07 21:49:16.768 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 21:49:16.768 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 21:49:16.778 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2021-09-07 21:49:17.330 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-07 21:49:17.716 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 21:49:18.265 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-07 21:49:24.991 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-07 21:49:26.380 [http-nio-8001-exec-2] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：9049
+2021-09-07 21:49:26.630 [http-nio-8001-exec-1] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：8914
+2021-09-07 21:49:34.794 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryUserArticleList=======
+2021-09-07 21:49:34.992 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：198
+2021-09-07 21:50:02.468 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryUserArticleList=======
+2021-09-07 21:50:02.492 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：24
+2021-09-07 21:57:00.557 [main] INFO  com.imooc.article.Application - Starting Application on DESKTOP-VO4OPVP with PID 21064 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-article\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 21:57:00.558 [main] INFO  com.imooc.article.Application - The following profiles are active: dev
+2021-09-07 21:57:00.642 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 21:57:01.778 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 21:57:01.788 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 21:57:01.809 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 MongoDB repository interfaces.
+2021-09-07 21:57:01.823 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 21:57:01.824 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 21:57:01.836 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+2021-09-07 21:57:01.968 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.article]' package. Please check your configuration.
+2021-09-07 21:57:02.639 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-07 21:57:02.652 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-07 21:57:02.652 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 21:57:02.653 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 21:57:02.757 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 21:57:02.758 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2104 ms
+2021-09-07 21:57:04.296 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 21:57:04.422 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 21:57:04.423 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 21:57:04.424 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 21:57:04.424 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 21:57:04.755 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 21:57:04.768 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 21:57:04.778 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 21:57:04.798 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-07 21:57:04.820 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-07 21:57:04.822 [main] INFO  com.imooc.article.Application - Started Application in 5.189 seconds (JVM running for 6.713)
+2021-09-07 21:57:21.649 [http-nio-8001-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 21:57:21.649 [http-nio-8001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 21:57:21.659 [http-nio-8001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2021-09-07 21:57:21.746 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryUserArticleList=======
+2021-09-07 21:57:21.746 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryGoodArticleList=======
+2021-09-07 21:57:21.950 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-07 21:57:22.742 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-07 21:57:23.068 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1322
+2021-09-07 21:57:23.069 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1322
+2021-09-07 22:05:03.404 [main] INFO  com.imooc.article.Application - Starting Application on DESKTOP-VO4OPVP with PID 13012 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-article\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 22:05:03.406 [main] INFO  com.imooc.article.Application - The following profiles are active: dev
+2021-09-07 22:05:03.496 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 22:05:04.809 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 22:05:04.810 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 22:05:04.833 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 MongoDB repository interfaces.
+2021-09-07 22:05:04.851 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 22:05:04.852 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 22:05:04.867 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2021-09-07 22:05:05.075 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.article]' package. Please check your configuration.
+2021-09-07 22:05:05.926 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-07 22:05:05.936 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-07 22:05:05.937 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 22:05:05.937 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 22:05:06.048 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 22:05:06.048 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2538 ms
+2021-09-07 22:05:07.599 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 22:05:07.731 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 22:05:07.732 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 22:05:07.732 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 22:05:07.733 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 22:05:08.105 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 22:05:08.120 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 22:05:08.131 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 22:05:08.150 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-07 22:05:08.173 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-07 22:05:08.177 [main] INFO  com.imooc.article.Application - Started Application in 5.829 seconds (JVM running for 8.031)
+2021-09-07 22:06:01.318 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 22:06:01.318 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 22:06:01.327 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-09-07 22:06:01.381 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryUserArticleList=======
+2021-09-07 22:06:01.381 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryGoodArticleList=======
+2021-09-07 22:06:01.521 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-07 22:06:02.430 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-07 22:06:02.691 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1309
+2021-09-07 22:06:02.691 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1309
+2021-09-07 22:06:17.668 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryUserArticleList=======
+2021-09-07 22:06:17.687 [http-nio-8001-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryGoodArticleList=======
+2021-09-07 22:06:17.755 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：86
+2021-09-07 22:06:17.762 [http-nio-8001-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：75
+2021-09-07 22:07:11.447 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 22:07:11.480 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 22:07:11.482 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：34
+2021-09-07 22:07:11.507 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：27
+2021-09-07 22:07:19.013 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 22:07:19.013 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-07 22:07:19.029 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：16
+2021-09-07 22:07:19.051 [http-nio-8001-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：38
+2021-09-07 22:09:55.602 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 22:09:55.602 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-07 22:09:55.617 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：15
+2021-09-07 22:09:55.622 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：20
+2021-09-07 22:14:19.879 [main] INFO  com.imooc.article.Application - Starting Application on DESKTOP-VO4OPVP with PID 9572 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-article\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 22:14:19.880 [main] INFO  com.imooc.article.Application - The following profiles are active: dev
+2021-09-07 22:14:19.919 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 22:14:21.265 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 22:14:21.266 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 22:14:21.289 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 MongoDB repository interfaces.
+2021-09-07 22:14:21.301 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 22:14:21.302 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 22:14:21.314 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+2021-09-07 22:14:21.435 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.article]' package. Please check your configuration.
+2021-09-07 22:14:22.212 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-07 22:14:22.221 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-07 22:14:22.222 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 22:14:22.222 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 22:14:22.355 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 22:14:22.356 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2405 ms
+2021-09-07 22:14:23.944 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 22:14:24.066 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 22:14:24.067 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 22:14:24.067 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 22:14:24.068 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 22:14:24.408 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 22:14:24.421 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 22:14:24.432 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 22:14:24.450 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-07 22:14:24.472 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-07 22:14:24.475 [main] INFO  com.imooc.article.Application - Started Application in 5.592 seconds (JVM running for 7.65)
+2021-09-07 22:15:23.303 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 22:15:23.303 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 22:15:23.324 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2021-09-07 22:15:23.412 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-07 22:15:23.441 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 22:15:23.580 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-07 22:15:24.408 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-07 22:15:24.812 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1400
+2021-09-07 22:15:24.830 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1389
+2021-09-07 22:15:31.173 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 22:15:31.195 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-07 22:15:31.247 [http-nio-8001-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：51
+2021-09-07 22:15:31.276 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：103
+2021-09-07 22:16:16.406 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryUserArticleList=======
+2021-09-07 22:16:16.410 [http-nio-8001-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryGoodArticleList=======
+2021-09-07 22:16:16.426 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：19
+2021-09-07 22:16:16.428 [http-nio-8001-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：18
+2021-09-07 22:17:17.796 [main] INFO  com.imooc.article.Application - Starting Application on DESKTOP-VO4OPVP with PID 16756 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-article\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 22:17:17.798 [main] INFO  com.imooc.article.Application - The following profiles are active: dev
+2021-09-07 22:17:17.832 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 22:17:19.077 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 22:17:19.077 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 22:17:19.099 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 MongoDB repository interfaces.
+2021-09-07 22:17:19.113 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 22:17:19.114 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 22:17:19.125 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+2021-09-07 22:17:19.242 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.article]' package. Please check your configuration.
+2021-09-07 22:17:19.963 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-07 22:17:19.975 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-07 22:17:19.975 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 22:17:19.975 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 22:17:20.081 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 22:17:20.082 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2212 ms
+2021-09-07 22:17:21.697 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 22:17:21.822 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 22:17:21.823 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 22:17:21.824 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 22:17:21.824 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 22:17:22.161 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 22:17:22.174 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 22:17:22.187 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 22:17:22.207 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-07 22:17:22.230 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-07 22:17:22.233 [main] INFO  com.imooc.article.Application - Started Application in 5.751 seconds (JVM running for 7.498)
+2021-09-07 22:17:26.823 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 22:17:26.823 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 22:17:26.840 [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2021-09-07 22:17:26.911 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-07 22:17:26.918 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-07 22:17:27.032 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-07 22:17:27.798 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-07 22:17:28.142 [http-nio-8001-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1231
+2021-09-07 22:17:28.159 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1241
+2021-09-07 22:18:10.694 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-07 22:18:10.712 [http-nio-8001-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：17
+2021-09-07 22:19:54.675 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryUserArticleList=======
+2021-09-07 22:19:54.680 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryGoodArticleList=======
+2021-09-07 22:19:54.727 [http-nio-8001-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：47
+2021-09-07 22:19:54.728 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：53

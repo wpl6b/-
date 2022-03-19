@@ -1,0 +1,71 @@
+2021-09-06 10:15:26.632 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-06 10:15:27.263 [main] INFO  com.imooc.files.Application - Starting Application on DESKTOP-VO4OPVP with PID 2832 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-files\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-06 10:15:27.263 [main] INFO  com.imooc.files.Application - The following profiles are active: dev
+2021-09-06 10:15:31.891 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-06 10:15:31.892 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-06 10:15:31.916 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 MongoDB repository interfaces.
+2021-09-06 10:15:31.931 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-06 10:15:31.932 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-06 10:15:31.942 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2021-09-06 10:15:45.374 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2021-09-06 10:15:45.413 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2021-09-06 10:15:45.414 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-06 10:15:45.414 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-06 10:15:45.853 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-06 10:15:45.853 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 18032 ms
+2021-09-06 10:15:47.080 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.186.88:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-06 10:15:47.480 [cluster-ClusterId{value='613579d3d5b4c75fae9af199', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:66}] to 192.168.186.88:27017
+2021-09-06 10:15:47.500 [cluster-ClusterId{value='613579d3d5b4c75fae9af199', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.186.88:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 2]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=17188600}
+2021-09-06 10:15:48.754 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-06 10:15:49.649 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-06 10:15:49.680 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-06 10:15:49.690 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-06 10:15:50.005 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2021-09-06 10:15:50.216 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2021-09-06 10:15:50.228 [main] INFO  com.imooc.files.Application - Started Application in 24.984 seconds (JVM running for 27.39)
+2021-09-06 10:27:42.762 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-06 10:27:42.763 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-06 10:27:42.783 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2021-09-06 10:27:49.560 [http-nio-8004-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.files.service.impl.UploaderServiceImpl.uploadFiles=======
+2021-09-06 10:27:50.365 [http-nio-8004-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：805
+2021-09-06 10:27:50.365 [http-nio-8004-exec-4] INFO  c.i.f.c.FileUploaderController - 文件存储路径： imooc/M00/00/00/wKi6WGE2zh2AZLDLAAAQ9PHKggQ439.png
+2021-09-06 10:27:50.365 [http-nio-8004-exec-4] INFO  c.i.f.c.FileUploaderController - 最终路径： http://192.168.186.88:8888/imooc/M00/00/00/wKi6WGE2zh2AZLDLAAAQ9PHKggQ439.png
+2021-09-06 10:31:36.191 [http-nio-8004-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.files.service.impl.UploaderServiceImpl.uploadFiles=======
+2021-09-06 10:31:36.293 [http-nio-8004-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：102
+2021-09-06 10:31:36.294 [http-nio-8004-exec-8] INFO  c.i.f.c.FileUploaderController - 文件存储路径： imooc/M00/00/00/wKi6WGE2zv-ADNKyAAAQ9PHKggQ488.png
+2021-09-06 10:31:36.294 [http-nio-8004-exec-8] INFO  c.i.f.c.FileUploaderController - 最终路径： http://192.168.186.88:8888/imooc/M00/00/00/wKi6WGE2zv-ADNKyAAAQ9PHKggQ488.png
+2021-09-06 10:35:15.637 [http-nio-8004-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.files.service.impl.UploaderServiceImpl.uploadFiles=======
+2021-09-06 10:35:15.714 [http-nio-8004-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：77
+2021-09-06 10:35:15.714 [http-nio-8004-exec-2] INFO  c.i.f.c.FileUploaderController - 文件存储路径： imooc/M00/00/00/wKi6WGE2z9qAX4YEAAAQ9PHKggQ546.png
+2021-09-06 10:35:15.715 [http-nio-8004-exec-2] INFO  c.i.f.c.FileUploaderController - 最终路径： http://192.168.186.88:8888/imooc/M00/00/00/wKi6WGE2z9qAX4YEAAAQ9PHKggQ546.png
+2021-09-06 10:58:28.795 [main] INFO  com.imooc.files.Application - Starting Application on DESKTOP-VO4OPVP with PID 6752 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-files\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-06 10:58:28.805 [main] INFO  com.imooc.files.Application - The following profiles are active: dev
+2021-09-06 10:58:31.884 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-06 10:58:31.885 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-06 10:58:31.907 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 MongoDB repository interfaces.
+2021-09-06 10:58:31.925 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-06 10:58:31.926 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-06 10:58:31.935 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2021-09-06 10:58:32.628 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2021-09-06 10:58:32.637 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2021-09-06 10:58:32.637 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-06 10:58:32.638 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-06 10:58:32.810 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-06 10:58:32.811 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3964 ms
+2021-09-06 10:58:33.850 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.186.88:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-06 10:58:33.978 [cluster-ClusterId{value='613583d9c407cb5b1418c9e1', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:68}] to 192.168.186.88:27017
+2021-09-06 10:58:33.986 [cluster-ClusterId{value='613583d9c407cb5b1418c9e1', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.186.88:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 2]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6321000}
+2021-09-06 10:58:35.104 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-06 10:58:36.666 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-06 10:58:36.943 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-06 10:58:36.955 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-06 10:58:37.771 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2021-09-06 10:58:37.893 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2021-09-06 10:58:37.897 [main] INFO  com.imooc.files.Application - Started Application in 10.348 seconds (JVM running for 12.398)
+2021-09-06 13:13:16.722 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-06 13:13:17.427 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-06 13:13:25.589 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8145 ms
+2021-09-06 13:13:36.797 [http-nio-8004-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.files.service.impl.UploaderServiceImpl.uploadFiles=======
+2021-09-06 13:13:41.797 [http-nio-8004-exec-2] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：4999
+2021-09-06 13:13:41.797 [http-nio-8004-exec-2] INFO  c.i.f.c.FileUploaderController - 文件存储路径： imooc/M00/00/00/wKi6WGE29PyABW3LAAAQ9PHKggQ534.png
+2021-09-06 13:13:41.797 [http-nio-8004-exec-2] INFO  c.i.f.c.FileUploaderController - 最终路径： http://192.168.186.88:8888/imooc/M00/00/00/wKi6WGE29PyABW3LAAAQ9PHKggQ534.png

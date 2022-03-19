@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "aliyun",
+      "type": "com.imooc.utils.extend.AliyunResource",
+      "sourceType": "com.imooc.utils.extend.AliyunResource"
+    },
+    {
+      "name": "tencent",
+      "type": "com.imooc.utils.extend.TencentResource",
+      "sourceType": "com.imooc.utils.extend.TencentResource"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aliyun.access-key-i-d",
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.utils.extend.AliyunResource"
+    },
+    {
+      "name": "aliyun.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.utils.extend.AliyunResource"
+    },
+    {
+      "name": "tencent.secret-i-d",
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.utils.extend.TencentResource"
+    },
+    {
+      "name": "tencent.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.imooc.utils.extend.TencentResource"
+    }
+  ],
+  "hints": []
+}

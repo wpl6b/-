@@ -1,0 +1,18 @@
+2021-08-05 16:40:49.651 [main] INFO  com.imooc.user.Application - Starting Application on DESKTOP-VO4OPVP with PID 2580 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-user\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-08-05 16:40:49.700 [main] INFO  com.imooc.user.Application - No active profile set, falling back to default profiles: default
+2021-08-05 16:40:52.994 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8003 (http)
+2021-08-05 16:40:53.060 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-08-05 16:40:53.062 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-05 16:40:53.063 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-08-05 16:40:53.321 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-05 16:40:53.322 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3544 ms
+2021-08-05 16:40:53.773 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-05 16:40:54.165 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-08-05 16:40:54.248 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8003 (http) with context path ''
+2021-08-05 16:40:54.253 [main] INFO  com.imooc.user.Application - Started Application in 5.653 seconds (JVM running for 8.246)
+2021-08-05 16:40:57.183 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-05 16:40:57.184 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-05 16:40:57.193 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-08-05 16:40:57.230 [http-nio-8003-exec-1] INFO  c.i.user.controller.HelloController - 2
+2021-08-05 16:40:57.231 [http-nio-8003-exec-1] WARN  c.i.user.controller.HelloController - 3
+2021-08-05 16:40:57.232 [http-nio-8003-exec-1] ERROR c.i.user.controller.HelloController - 4

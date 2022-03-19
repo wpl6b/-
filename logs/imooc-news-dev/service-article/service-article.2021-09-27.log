@@ -1,0 +1,32 @@
+2021-09-27 15:24:46.227 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-27 15:24:46.322 [main] INFO  com.imooc.article.Application - Starting Application on DESKTOP-VO4OPVP with PID 18052 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-article\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-27 15:24:46.325 [main] INFO  com.imooc.article.Application - The following profiles are active: dev
+2021-09-27 15:24:49.308 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-27 15:24:49.309 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-27 15:24:49.332 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 MongoDB repository interfaces.
+2021-09-27 15:24:49.347 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-27 15:24:49.348 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-27 15:24:49.359 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2ms. Found 0 Redis repository interfaces.
+2021-09-27 15:24:49.586 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.article]' package. Please check your configuration.
+2021-09-27 15:24:50.481 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2021-09-27 15:24:50.489 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2021-09-27 15:24:50.490 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-27 15:24:50.490 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-27 15:24:50.606 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-27 15:24:50.606 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4128 ms
+2021-09-27 15:24:52.853 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.186.88:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-27 15:24:52.953 [cluster-ClusterId{value='615171c4c57c6b4a143c6345', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:94}] to 192.168.186.88:27017
+2021-09-27 15:24:52.961 [cluster-ClusterId{value='615171c4c57c6b4a143c6345', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.186.88:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 8]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5051100}
+2021-09-27 15:24:53.948 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-27 15:24:54.160 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-27 15:24:54.161 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-27 15:24:54.162 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-27 15:24:54.162 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-27 15:24:57.319 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [192.168.186.88:5672]
+2021-09-27 15:24:58.056 [main] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7135ce0a:0/SimpleConnection@5f3ddc86 [delegate=amqp://admin@192.168.186.88:5672/imooc-news-dev, localPort= 63007]
+2021-09-27 15:24:58.464 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-27 15:24:58.567 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-27 15:24:58.598 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-27 15:24:58.661 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2021-09-27 15:24:58.951 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2021-09-27 15:24:58.954 [main] INFO  com.imooc.article.Application - Started Application in 14.091 seconds (JVM running for 16.0)

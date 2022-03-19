@@ -1,0 +1,58 @@
+2021-09-24 08:27:29.098 [http-nio-8015-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.AdminUserServiceImpl.queryAdminByUsername=======
+2021-09-24 08:27:32.796 [http-nio-8015-exec-3] WARN  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2599
+2021-09-24 08:27:49.058 [http-nio-8015-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.AdminUserServiceImpl.queryAdminList=======
+2021-09-24 08:27:57.563 [http-nio-8015-exec-4] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：8492
+2021-09-24 09:01:41.069 [http-nio-8015-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryAllFriendLink=======
+2021-09-24 09:01:52.591 [http-nio-8015-exec-7] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:3, serverValue:85}] to 192.168.186.88:27017 because there was a socket exception raised on another connection from this pool.
+2021-09-24 09:01:52.592 [http-nio-8015-exec-7] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:86}] to 192.168.186.88:27017 because there was a socket exception raised on another connection from this pool.
+2021-09-24 09:01:53.373 [http-nio-8015-exec-7] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:9, serverValue:102}] to 192.168.186.88:27017
+2021-09-24 09:01:54.277 [http-nio-8015-exec-7] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：13111
+2021-09-24 09:21:30.442 [cluster-ClusterId{value='614482888aa5d016b88ede81', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 192.168.186.88:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2021-09-24 09:21:40.492 [cluster-ClusterId{value='614482888aa5d016b88ede81', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:11, serverValue:105}] to 192.168.186.88:27017
+2021-09-24 09:21:40.527 [cluster-ClusterId{value='614482888aa5d016b88ede81', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.186.88:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 2]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=834400}
+2021-09-24 10:05:26.745 [http-nio-8015-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.CategoryServiceImpl.queryCategoryList=======
+2021-09-24 10:05:32.474 [http-nio-8015-exec-3] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：5701
+2021-09-24 10:12:21.949 [http-nio-8015-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryAllFriendLink=======
+2021-09-24 10:12:22.530 [http-nio-8015-exec-1] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:9, serverValue:102}] to 192.168.186.88:27017 because there was a socket exception raised on another connection from this pool.
+2021-09-24 10:12:22.795 [http-nio-8015-exec-1] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:12, serverValue:107}] to 192.168.186.88:27017
+2021-09-24 10:12:23.321 [http-nio-8015-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1363
+2021-09-24 10:12:28.329 [http-nio-8015-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.CategoryServiceImpl.queryCategoryList=======
+2021-09-24 10:12:28.747 [http-nio-8015-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.CategoryServiceImpl.queryCategoryList=======
+2021-09-24 10:12:28.888 [http-nio-8015-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：559
+2021-09-24 10:12:29.672 [http-nio-8015-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：925
+2021-09-24 10:28:10.924 [http-nio-8015-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.CategoryServiceImpl.queryCategoryList=======
+2021-09-24 10:28:11.101 [http-nio-8015-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：176
+2021-09-24 11:34:27.528 [http-nio-8015-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-24 11:34:34.637 [http-nio-8015-exec-1] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：6167
+2021-09-24 11:46:16.565 [http-nio-8015-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-24 11:46:16.644 [http-nio-8015-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：58
+2021-09-24 12:00:44.482 [http-nio-8015-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-24 12:00:44.484 [http-nio-8015-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-24 12:07:22.970 [http-nio-8015-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-24 12:07:23.127 [http-nio-8015-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：4
+2021-09-24 12:19:59.048 [http-nio-8015-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.CategoryServiceImpl.queryCategoryList=======
+2021-09-24 12:20:00.670 [http-nio-8015-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryAllFriendLink=======
+2021-09-24 12:20:00.677 [http-nio-8015-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：1629
+2021-09-24 12:20:01.054 [http-nio-8015-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：276
+2021-09-24 12:20:38.511 [http-nio-8015-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-24 12:20:38.550 [http-nio-8015-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：3
+2021-09-24 12:45:17.931 [http-nio-8015-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-24 12:45:18.166 [http-nio-8015-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：74

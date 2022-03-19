@@ -1,0 +1,6 @@
+2021-09-23 08:54:13.195 [http-nio-8015-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.AdminUserServiceImpl.queryAdminByUsername=======
+2021-09-23 08:54:27.247 [http-nio-8015-exec-9] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：13461
+2021-09-23 08:56:20.650 [http-nio-8015-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.AdminUserServiceImpl.queryAdminList=======
+2021-09-23 08:56:23.495 [http-nio-8015-exec-5] WARN  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2844
+2021-09-23 09:20:16.017 [cluster-ClusterId{value='614482888aa5d016b88ede81', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:7, serverValue:93}] to 192.168.186.88:27017
+2021-09-23 21:20:31.533 [cluster-ClusterId{value='614482888aa5d016b88ede81', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:8, serverValue:97}] to 192.168.186.88:27017

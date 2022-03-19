@@ -1,0 +1,73 @@
+2021-09-20 13:01:35.804 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-20 13:03:13.188 [main] INFO  com.imooc.user.Application - Starting Application on DESKTOP-VO4OPVP with PID 22980 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-user\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-20 13:03:13.190 [main] INFO  com.imooc.user.Application - The following profiles are active: dev
+2021-09-20 13:03:14.142 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-20 13:03:25.043 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-20 13:03:25.045 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-20 13:03:25.090 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 MongoDB repository interfaces.
+2021-09-20 13:03:25.193 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-20 13:03:25.195 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-20 13:03:25.216 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2021-09-20 13:03:25.647 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-20 13:03:26.968 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8003 (http)
+2021-09-20 13:03:26.989 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-20 13:03:26.990 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-20 13:03:26.990 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-20 13:03:27.172 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-20 13:03:27.172 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 13114 ms
+2021-09-20 13:03:30.059 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-20 13:03:30.280 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-20 13:03:30.281 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-20 13:03:30.281 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-20 13:03:30.281 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-20 13:03:31.119 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-20 13:03:31.163 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-20 13:03:31.195 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-20 13:03:31.590 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2021-09-20 13:03:31.623 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-20 13:03:31.627 [main] INFO  com.imooc.user.Application - Started Application in 21.778 seconds (JVM running for 25.582)
+2021-09-20 13:08:08.714 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-20 13:08:08.714 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-20 13:08:08.724 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2021-09-20 13:08:26.330 [http-nio-8003-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-09-20 13:08:26.333 [http-nio-8003-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-09-20 13:08:21.724 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryHotArticleList=======
+2021-09-20 13:08:32.831 [http-nio-8001-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticlePortalServiceImpl.queryIndexArticleList=======
+2021-09-20 13:08:54.739 [http-nio-8001-exec-8] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：21445
+2021-09-20 13:08:57.852 [http-nio-8001-exec-3] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：24558
+2021-09-20 14:45:47.951 [http-nio-8003-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryMyFanList=======
+2021-09-20 14:45:49.006 [http-nio-8003-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryFansCountByRegion=======
+2021-09-20 14:45:49.378 [http-nio-8003-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryFansCountBySex=======
+2021-09-20 14:46:00.549 [http-nio-8003-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Starting...
+2021-09-20 14:46:22.500 [http-nio-8003-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryMyFanList=======
+2021-09-20 14:46:30.652 [http-nio-8003-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryFansCountBySex=======
+2021-09-20 14:46:30.664 [http-nio-8003-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryFansCountByRegion=======
+2021-09-20 14:46:40.072 [http-nio-8003-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryFansCountBySex=======
+2021-09-20 14:46:40.078 [http-nio-8003-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryFansCountByRegion=======
+2021-09-20 14:46:46.651 [http-nio-8003-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryFansCountBySex=======
+2021-09-20 14:46:57.060 [http-nio-8003-exec-11] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryFansCountByRegion=======
+2021-09-20 14:47:06.327 [http-nio-8001-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.queryMyList=======
+2021-09-20 14:47:13.228 [http-nio-8003-exec-12] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryMyFanList=======
+2021-09-20 14:47:17.586 [http-nio-8001-exec-1] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：10220
+2021-09-20 14:47:25.167 [http-nio-8003-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - DateSourceHikariCP - Start completed.
+2021-09-20 14:47:27.433 [http-nio-8003-exec-6] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：40781
+2021-09-20 14:47:27.432 [http-nio-8003-exec-5] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：47359
+2021-09-20 14:47:27.471 [http-nio-8003-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryFansCountBySex=======
+2021-09-20 14:47:27.471 [http-nio-8003-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryFansCountBySex=======
+2021-09-20 14:47:27.527 [http-nio-8003-exec-10] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：98149
+2021-09-20 14:47:27.641 [http-nio-8003-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryFansCountBySex=======
+2021-09-20 14:47:27.757 [http-nio-8003-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：116
+2021-09-20 14:47:27.778 [http-nio-8003-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：137
+2021-09-20 14:47:27.834 [http-nio-8003-exec-1] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：99470
+2021-09-20 14:47:27.849 [http-nio-8003-exec-12] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：14621
+2021-09-20 14:47:27.861 [http-nio-8003-exec-8] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：65360
+2021-09-20 14:47:27.995 [http-nio-8003-exec-4] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：57330
+2021-09-20 14:47:27.999 [http-nio-8003-exec-7] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：98968
+2021-09-20 14:47:28.032 [http-nio-8003-exec-3] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：47953
+2021-09-20 14:47:28.072 [http-nio-8003-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：431
+2021-09-20 14:47:28.102 [http-nio-8003-exec-11] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：31042
+2021-09-20 14:47:28.596 [http-nio-8003-exec-9] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：57943
+2021-09-20 14:47:28.597 [http-nio-8003-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryFansCountBySex=======
+2021-09-20 14:47:28.637 [http-nio-8003-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：40
+2021-09-20 14:59:01.030 [http-nio-8003-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.MyFansServiceImpl.queryMyFanList=======
+2021-09-20 14:59:01.068 [http-nio-8003-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：38

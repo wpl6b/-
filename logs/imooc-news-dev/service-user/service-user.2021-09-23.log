@@ -1,0 +1,2 @@
+2021-09-23 09:20:22.963 [cluster-ClusterId{value='614483a78e8e1d19df40c042', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:94}] to 192.168.186.88:27017
+2021-09-23 21:20:45.108 [cluster-ClusterId{value='614483a78e8e1d19df40c042', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:98}] to 192.168.186.88:27017

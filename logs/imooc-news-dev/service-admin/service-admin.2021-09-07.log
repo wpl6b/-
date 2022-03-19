@@ -1,0 +1,126 @@
+2021-09-07 12:07:02.319 [main] INFO  com.imooc.admin.Application - Starting Application on DESKTOP-VO4OPVP with PID 3476 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-admin\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 12:07:02.320 [main] INFO  com.imooc.admin.Application - The following profiles are active: dev
+2021-09-07 12:07:02.651 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 12:07:07.984 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 12:07:07.985 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 12:07:08.097 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97ms. Found 1 MongoDB repository interfaces.
+2021-09-07 12:07:08.177 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 12:07:08.178 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 12:07:08.197 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.admin.repository.FriendLinkRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-09-07 12:07:08.197 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2021-09-07 12:07:08.974 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.admin]' package. Please check your configuration.
+2021-09-07 12:07:10.960 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8015 (http)
+2021-09-07 12:07:10.980 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8015"]
+2021-09-07 12:07:10.981 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 12:07:10.981 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 12:07:11.133 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 12:07:11.133 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8546 ms
+2021-09-07 12:07:14.033 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.186.88:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-07 12:07:14.203 [cluster-ClusterId{value='6136e5728c62a7295c9b5c7a', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:74}] to 192.168.186.88:27017
+2021-09-07 12:07:14.220 [cluster-ClusterId{value='6136e5728c62a7295c9b5c7a', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.186.88:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 2]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=16089700}
+2021-09-07 12:07:15.619 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 12:07:15.831 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 12:07:15.832 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 12:07:15.832 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 12:07:15.833 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 12:07:16.329 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 12:07:16.372 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 12:07:16.405 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 12:07:16.789 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8015"]
+2021-09-07 12:07:16.822 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8015 (http) with context path ''
+2021-09-07 12:07:16.825 [main] INFO  com.imooc.admin.Application - Started Application in 16.653 seconds (JVM running for 20.087)
+2021-09-07 12:08:35.926 [http-nio-8015-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 12:08:35.927 [http-nio-8015-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 12:08:35.938 [http-nio-8015-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2021-09-07 12:08:36.906 [http-nio-8015-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-09-07 12:08:37.586 [http-nio-8015-exec-2] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-09-07 12:08:37.588 [http-nio-8015-exec-2] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-09-07 12:09:58.753 [http-nio-8015-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-09-07 12:11:24.167 [http-nio-8015-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-09-07 12:14:06.671 [http-nio-8015-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-09-07 12:14:18.105 [http-nio-8015-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-09-07 12:17:34.632 [http-nio-8015-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-09-07 12:17:53.195 [http-nio-8015-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-09-07 12:19:28.171 [main] INFO  com.imooc.admin.Application - Starting Application on DESKTOP-VO4OPVP with PID 9548 (D:\java_code\IdeaProject\imooc-news-dev\imooc-new-dev-service-admin\target\classes started by Alex in D:\java_code\IdeaProject\imooc-news-dev)
+2021-09-07 12:19:28.173 [main] INFO  com.imooc.admin.Application - The following profiles are active: dev
+2021-09-07 12:19:28.281 [background-preinit] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-07 12:19:31.050 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 12:19:31.051 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-07 12:19:31.162 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 105ms. Found 1 MongoDB repository interfaces.
+2021-09-07 12:19:31.182 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-07 12:19:31.183 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-07 12:19:31.199 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.admin.repository.FriendLinkRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2021-09-07 12:19:31.200 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2021-09-07 12:19:31.339 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.imooc.admin]' package. Please check your configuration.
+2021-09-07 12:19:32.100 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8015 (http)
+2021-09-07 12:19:32.109 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8015"]
+2021-09-07 12:19:32.110 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-09-07 12:19:32.111 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-07 12:19:32.215 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-09-07 12:19:32.215 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3911 ms
+2021-09-07 12:19:34.256 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.186.88:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-07 12:19:35.114 [cluster-ClusterId{value='6136e856ccbdaf6bf501d39f', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:76}] to 192.168.186.88:27017
+2021-09-07 12:19:35.121 [cluster-ClusterId{value='6136e856ccbdaf6bf501d39f', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.186.88:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[5, 0, 2]}, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4658300}
+2021-09-07 12:19:36.711 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 12:19:36.808 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-07 12:19:36.809 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-07 12:19:36.810 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-07 12:19:36.810 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2021-09-07 12:19:37.057 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-09-07 12:19:37.071 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-09-07 12:19:37.083 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-09-07 12:19:37.302 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8015"]
+2021-09-07 12:19:37.350 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8015 (http) with context path ''
+2021-09-07 12:19:37.353 [main] INFO  com.imooc.admin.Application - Started Application in 10.35 seconds (JVM running for 12.336)
+2021-09-07 12:20:48.943 [http-nio-8015-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 12:20:48.943 [http-nio-8015-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-09-07 12:20:48.954 [http-nio-8015-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2021-09-07 12:20:48.995 [http-nio-8015-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 12:20:49.335 [http-nio-8015-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-09-07 12:20:49.338 [http-nio-8015-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-09-07 12:20:50.282 [http-nio-8015-exec-2] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:77}] to 192.168.186.88:27017
+2021-09-07 12:21:11.924 [http-nio-8015-exec-2] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：22929
+2021-09-07 12:53:30.679 [http-nio-8015-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 12:53:30.746 [http-nio-8015-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：17
+2021-09-07 12:54:05.018 [http-nio-8015-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 12:54:05.083 [http-nio-8015-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：65
+2021-09-07 12:55:35.512 [http-nio-8015-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 12:55:35.545 [http-nio-8015-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：32
+2021-09-07 12:56:04.462 [http-nio-8015-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 12:56:04.482 [http-nio-8015-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：20
+2021-09-07 12:56:15.106 [http-nio-8015-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 12:56:15.385 [http-nio-8015-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：278
+2021-09-07 12:57:27.099 [http-nio-8015-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 12:57:27.157 [http-nio-8015-exec-6] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：58
+2021-09-07 12:57:57.944 [http-nio-8015-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 12:57:57.961 [http-nio-8015-exec-10] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：17
+2021-09-07 12:59:41.510 [http-nio-8015-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 12:59:41.536 [http-nio-8015-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：4
+2021-09-07 13:05:59.307 [http-nio-8015-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 13:05:59.390 [http-nio-8015-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：83
+2021-09-07 13:06:32.983 [http-nio-8015-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 13:06:32.999 [http-nio-8015-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 13:06:45.249 [http-nio-8015-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 13:06:45.260 [http-nio-8015-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：11
+2021-09-07 13:07:23.306 [http-nio-8015-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 13:07:23.311 [http-nio-8015-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：4
+2021-09-07 13:08:32.589 [http-nio-8015-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 13:08:32.612 [http-nio-8015-exec-7] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：19
+2021-09-07 13:13:27.944 [http-nio-8015-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 13:13:27.947 [http-nio-8015-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：3
+2021-09-07 13:17:06.125 [http-nio-8015-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 13:17:06.129 [http-nio-8015-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：3
+2021-09-07 13:18:37.888 [http-nio-8015-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 13:18:37.895 [http-nio-8015-exec-9] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：6
+2021-09-07 13:21:20.220 [http-nio-8015-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 13:21:20.300 [http-nio-8015-exec-4] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：53
+2021-09-07 15:24:20.899 [http-nio-8015-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 15:24:28.016 [http-nio-8015-exec-8] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：5883
+2021-09-07 15:43:35.005 [http-nio-8015-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 15:43:35.399 [http-nio-8015-exec-3] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：357
+2021-09-07 15:57:50.161 [http-nio-8015-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 15:57:50.217 [http-nio-8015-exec-5] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：2
+2021-09-07 16:04:34.777 [http-nio-8015-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 16:04:34.821 [http-nio-8015-exec-1] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：33
+2021-09-07 16:05:19.646 [http-nio-8015-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.admin.service.impl.FriendLinkServiceImpl.queryPortalFriendLinkList=======
+2021-09-07 16:05:19.746 [http-nio-8015-exec-2] INFO  c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：69

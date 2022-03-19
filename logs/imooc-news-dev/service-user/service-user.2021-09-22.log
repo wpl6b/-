@@ -1,0 +1,1 @@
+2021-09-22 21:20:09.148 [cluster-ClusterId{value='614483a78e8e1d19df40c042', description='null'}-192.168.186.88:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:90}] to 192.168.186.88:27017

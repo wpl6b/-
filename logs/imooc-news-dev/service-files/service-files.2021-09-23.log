@@ -1,0 +1,4 @@
+2021-09-23 08:54:53.073 [http-nio-8003-exec-12] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.user.service.impl.AppUserMngServiceImpl.queryAll=======
+2021-09-23 08:55:18.434 [http-nio-8003-exec-12] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：24274
+2021-09-23 09:18:32.118 [http-nio-8001-exec-8] INFO  c.imooc.api.aspect.ServiceLogAspect - =======开始执行class com.imooc.article.service.impl.ArticleServiceImpl.queryAllList=======
+2021-09-23 09:18:38.012 [http-nio-8001-exec-8] ERROR c.imooc.api.aspect.ServiceLogAspect - 当前执行耗时：5430
